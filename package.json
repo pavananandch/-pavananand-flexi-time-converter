@@ -1,6 +1,14 @@
 {
   "name": "@pavananand/flexi-time-converter",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavananandch/-pavananand-flexi-time-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pavananandch/-pavananand-flexi-time-converter/issues"
+  },
+  "homepage": "https://github.com/pavananandch/-pavananand-flexi-time-converter#readme",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
@@ -14,8 +22,8 @@
     "@pavananand/flexi-time-converter",
     "pavananand"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Pavan Anand",
+  "license": "MIT",
   "description": "This is a module used to perform various timestamp convertion operations",
   "dependencies": {
     "date-fns": "^3.6.0"
