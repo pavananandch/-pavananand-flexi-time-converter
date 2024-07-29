@@ -12,12 +12,12 @@ A JavaScript module for converting Unix timestamps to local strings and for conv
 You can install this module via npm:
 
 ```bash
-npm install timestamp-converter
+npm install @pavananand/flexi-time-converter
 
 Usage
 Convert Unix Timestamp to Local Date-Time String
 
-const { unixToLocalString } = require('timestamp-converter');
+const { unixToLocalString } = require('@pavananand/flexi-time-converter');
 
 // Example Unix Timestamp
 const unixTimestamp = 1625097600; // Unix timestamp for 2021-07-01 00:00:00 UTC
@@ -34,7 +34,7 @@ console.log('Local Time (EST):', localTimeEst);
 Convert IST to EST
 
 ```bash
-const { istToEst } = require('timestamp-converter');
+const { istToEst } = require('@pavananand/flexi-time-converter');
 
 // Example IST Date-Time String
 const istDateString = '2023-07-01 10:00:00';

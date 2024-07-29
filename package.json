@@ -10,7 +10,9 @@
   "keywords": [
     "converter",
     "timestamp",
-    "timestamp-converter"
+    "timestamp-converter",
+    "@pavananand/flexi-time-converter",
+    "pavananand"
   ],
   "author": "",
   "license": "ISC",
